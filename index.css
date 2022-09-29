@@ -1,0 +1,697 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(246, 242, 242);
+
+}
+
+.container {
+    display: flex;
+    background-color: rgb(246, 242, 242);
+
+}
+
+.sidebar {
+    /* width: 220px; */
+    /* background-color: rgb(193, 188, 188); */
+    background-color: dodgerblue;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.4s ease-in;
+
+
+}
+
+.sidebar nav {
+
+    padding: 80px 44px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+
+.sidebar nav ul li a:hover {
+
+    font-size: 1.4rem;
+    color: white;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    font-size: 25px;
+    padding: 30px 0px;
+}
+
+.main {
+    width: 100vw;
+    /* background-color: yellow; */
+    background-color: rgb(246, 242, 242);
+
+}
+
+.infocontainer {
+    display: flex;
+    height: 52vh;
+    width: 80vw;
+    flex-wrap: wrap;
+    /* background-color: cornflowerblue; */
+    margin: 130px auto 100px;
+    justify-content: space-around;
+}
+.devimg{
+    background-color: dodgerblue;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px black;
+}
+
+.devimg img {
+    width: 25vw;
+    height: 52vh;
+    align-items: center;
+    object-fit: center;
+}
+
+.hello {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 1px;
+}
+
+.about {
+    font-size: 29px;
+    letter-spacing: 1px;
+    margin: 1px;
+}
+
+.moreabout {
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 2px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devinfo {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: red; */
+}
+.social{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+}
+h3{
+    
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.social .social-item{
+    font-size: 1.6rem;
+    margin:0px 10px;
+    transition: all 0.3s;
+    
+}
+.social .social-item a{
+    color: dodgerblue;
+}
+.social .social-item:hover{
+    padding-left: 8px;
+}
+.credit{
+    display: flex;
+    margin: 30px 0px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: yellow; */
+}
+/* contectform */
+.contectform {
+    margin: 0px 50px;
+    padding: 100px 40px;
+    /* background-color: green; */
+    font-family: 'Fira sans', sans-serif;
+}
+
+.contectform h1 {
+    font-family: 'Fira Sans', sans-serif;
+    /* text-align: center; */
+    margin: 0px 0px 20px 0px;
+}
+
+.contectform .formdiv {
+    display: flex;
+    padding: 10px 0px;
+    flex-direction: column;
+}
+
+.contectform .formdiv .emailhelp {
+    margin: 10px 0px 0px 0px;
+    font-size: 12px;
+    color: midnightblue;
+}
+
+.contectform .formdivcheck {
+    border: 0;
+}
+
+.contectform .formdivcheck input {
+    width: 1vw;
+    height: 1.7vh;
+}
+
+.contectform .formdivcheck label {
+    font-size: 14px;
+}
+
+.contectform input {
+    margin: 6px 0px 0px 0px;
+    padding: 5px;
+    height: 15px;
+    width: 27vw;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.contectform .btn-sub {
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+    margin: 12px 0px;
+    cursor: pointer;
+    width: 6vw;
+    height: 4vh;
+}
+
+.contectform #btn-back {
+    margin: 0px 0px 0px 6px;
+    width: 9vw;
+}
+
+.container .btn-sub:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.contectform label {
+    font-size: 18px;
+}
+
+/* intro section */
+.intro {
+    margin: 60px 30px;
+}
+
+h1 {
+    margin: 25px;
+    font-family: 'Fira sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.intro p {
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.intro h2 {
+    margin: 25px;
+    font-family: 'Fira sans', sans-serif;
+}
+
+.skillcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    /* background-color: red; */
+    font-family: 'Fira sans', sans-serif;
+}
+
+.skill {
+    margin: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.wrap-level {
+    margin-top: 5px;
+    width: 500px;
+    height: 8px;
+    border: 2px solid black;
+
+
+}
+
+.wrap-level .level {
+    /* border: 2px solid; */
+    background-color: green;
+    width: 60%;
+    height: 9px;
+    animation-name: animation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+
+
+
+}
+
+.wrap-level .nine {
+    background-color: green;
+    width: 90%;
+}
+
+.wrap-level .eight {
+    background-color: green;
+    width: 80%;
+}
+
+.wrap-level .seven {
+    background-color: green;
+    width: 70%;
+}
+
+/* project section */
+.procontainer {
+    margin: 50px 50px;
+    height: 100vh;
+    /* background-color: rgb(124, 225, 124); */
+
+}
+.procontainer h1 {
+    margin: 25px 0px 25px 40px;
+
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item {
+    /* background-color: royalblue; */
+    height: 27vh;
+    /* border: 2px solid; */
+    margin: 5px 20px 5px 20px;
+    display: flex;
+    /* flex-direction: column; */
+
+}
+
+.project .project-item .project-demo {
+    /* background-color:yellow; */
+    margin: auto;
+    text-align: center;
+    width: 50%;
+
+}
+
+.project .project-item .project-des {
+    /* background-color: rgb(209, 123, 123); */
+    width: 50%;
+    /* line-height: 1.5rem; */
+    margin: 20px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+
+.project-demo video {
+    width: 60%;
+    height: 200px;
+
+
+}
+
+.sidebar-go {
+    transform: translate(-220px);
+    position: absolute;
+}
+
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    top: 15px;
+    left: 10px;
+}
+
+
+.hamburger .cross {
+    margin-left: 135px;
+}
+/* service container */
+.service{
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    
+}
+.service h1{
+    margin: 30px auto;
+    
+    
+}
+.servicecontainer{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 80vw;
+    flex-wrap: wrap;
+    /* background-color: cornflowerblue; */
+    margin: 10px auto 100px;
+    justify-content: space-around;
+}
+.servicecontainer .service-item{
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    margin: 10px;
+    width: 40%;
+    height: 40%;
+    box-shadow: 10px 10px 20px;
+    transition: transform 0.3s;
+  
+}
+.servicecontainer .service-item:hover{
+    cursor: pointer;
+    transform: translateY(5px);
+
+}
+.servicecontainer .service-item h2{
+    text-align: center;
+    font-family: 'Fira sans', sans-serif;
+    
+    margin: 10px 0px 0px 0px;
+}
+.servicecontainer .service-item p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 20px ;
+    font-weight: 900;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.5rem;
+    color: rgb(48, 46, 46);
+}
+
+/* responsive css */
+@media (max-width:500px) {
+    body {
+        
+        background-color: rgb(246, 242, 242);
+    }
+    .devinfo{
+        margin: 10px;
+    }
+    .devimg img {
+    
+        width: 65vw;
+        height: 30vh;
+        margin-top:10px;
+        align-items: center;
+        object-fit: center;
+    }
+
+    .intro {
+        margin: 100px 10px 0px;
+        font-size: 15px;
+    }
+
+    .intro p {
+        margin: 20px 0px 0px 24px;
+    }
+
+    .wrap-level {
+        margin-top: 5px;
+        width: 330px;
+        height: 8px;
+        border: 2px solid black;
+    }
+
+    .hamburger {
+
+        top: 30px;
+        left: 13px;
+    }
+
+    .contectform {
+        margin: 0px 30px;
+        padding: 100px 0px;
+    }
+
+    .contectform h1 {
+        font-size: 25px;
+    }
+    .contectform input {
+        margin: 6px 0px 0px 0px;
+        padding: 5px;
+        height: 15px;
+        width: 70vw;
+        border-radius: 7px;
+        font-size: 14px;
+    }
+    .contectform .formdivcheck input {
+        width: 8vw;
+        height: 1.7vh;
+    }
+
+    .contectform .formdivcheck label {
+        font-size: 14px;
+    }
+    .contectform .btn-sub {
+        padding: 5px;
+        border-radius: 15px;
+        font-size: 14px;
+        width: 20vw;
+        height: 5vh;
+    }
+    .contectform #btn-back {
+        margin: 0px 0px 0px 6px;
+        width: 36vw;
+    }
+    .project {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .procontainer {
+        margin: 10px 10px;
+        height: 100vh;
+ 
+    }
+    .procontainer h1 {
+        margin: 100px 0px -100px 30px;
+       font-size: 25px;
+    }
+    .project-item {
+        
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        margin: 200px 0px 0px 0px;    
+    }
+    .project .project-item .project-demo {
+    
+        width: 100%;
+    
+    }
+    .project-demo video {
+        width: 90%;
+        height: 200px;
+    }
+    .servicecontainer{
+       
+        flex-direction: column;
+        height: 80vh;
+        width: 80vw;
+        flex-wrap: nowrap;
+        margin-top: 260px;
+    }
+    .servicecontainer .service-item{
+        
+        margin:0px 0px 60px 0px;
+        width: 100%;
+        height: 50%;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .servicecontainer .service-item:nth-child(3){
+
+        height: 50%;
+
+    }
+    .social .social-item{
+        font-size: 1.6rem;
+        margin:120px 0px 0px 10px;
+        transition: all 0.3s;
+        
+    }
+    h3{
+        margin:120px 0px 0px -25px;
+    }
+    .credit{
+        
+        margin: 20px 0px;
+        font-size: 0.8rem;
+    }
+}
+.project .project-item .project-des {
+    
+    width: 90%;
+    margin: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+ .project .project-item .project-des p {
+   text-align: justify;
+   word-spacing: 0px;
+   
+
+} 
+
+
+@keyframes animation {
+    0% {
+        width: 0%;
+    }
+
+    5% {
+        width: 5%;
+    }
+
+    10% {
+        width: 10%;
+    }
+
+    15% {
+        width: 15%;
+    }
+
+    20% {
+        width: 20%;
+    }
+
+    25% {
+        width: 25%;
+    }
+
+    30% {
+        width: 30%;
+    }
+
+    35% {
+        width: 35%;
+    }
+
+    40% {
+        width: 40%;
+    }
+
+    45% {
+        width: 45%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    55% {
+        width: 55%;
+    }
+
+    60% {
+        width: 60%;
+    }
+
+    65% {
+        width: 65%;
+    }
+
+    70% {
+        width: 70%;
+    }
+
+    75% {
+        width: 75%;
+    }
+
+    80% {
+        width: 80%;
+    }
+
+    85% {
+        width: 85%;
+    }
+
+    90% {
+        width: 90%;
+    }
+
+    95% {
+        width: 95%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+
+}
