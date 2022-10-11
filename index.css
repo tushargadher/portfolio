@@ -444,9 +444,9 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     margin: 20px 20px ;
     font-weight: 900;
-    letter-spacing: 1px;
+    /* letter-spacing: 2px; */
     word-spacing: 1px;
-    line-height: 1.5rem;
+    line-height: 1rem;
     color: rgb(48, 46, 46);
 }
 
@@ -456,12 +456,24 @@ h1 {
         
         background-color: rgb(246, 242, 242);
     }
+    .infocontainer {
+        display: flex;
+        height: 52vh;
+        width: 80vw;
+        flex-wrap: wrap;
+        /* background-color: cornflowerblue; */
+        margin: 130px auto 100px;
+        justify-content: space-around;
+    }
     .devinfo{
         margin: 10px;
     }
+    .devimg{
+        width: 60vw;
+    }
     .devimg img {
     
-        width: 65vw;
+        width: 60vw;
         height: 30vh;
         margin-top:10px;
         align-items: center;
@@ -572,6 +584,13 @@ h1 {
         word-spacing: 0px;
         letter-spacing: 0px;
     }
+    .servicecontainer .service-item p{
+        font-weight: 900;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 1rem;
+    
+    }
     .servicecontainer .service-item:nth-child(3){
 
         height: 50%;
@@ -579,12 +598,12 @@ h1 {
     }
     .social .social-item{
         font-size: 1.6rem;
-        margin:120px 0px 0px 10px;
+        margin:150px 0px 0px 10px;
         transition: all 0.3s;
         
     }
     h3{
-        margin:120px 0px 0px -25px;
+        margin:150px 0px 0px -25px;
     }
     .credit{
         
